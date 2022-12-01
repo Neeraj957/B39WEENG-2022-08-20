@@ -29,7 +29,7 @@ console.log(jsonData);
 
 for(var country of jsonData){
     const { flag, name, region, subregion, population} = country;
-    console.log( `${flag} is the flag for the ${region} (sub-region : ${subregion}) for which the population is ${population}` );
+    console.log( `${flag} is the flag for ${name.common} region: ${region} (sub-region : ${subregion}) where the population is ${population}`);
     }
 
 }
